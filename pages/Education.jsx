@@ -1,18 +1,14 @@
 import React from "react";
 import "../src/components/Education.css";
-import logoswce from "../assert/logo-swce.png"
-import srichaitanys from "../assert/srichaitanys.jpg"
+import logoswce from "../assert/logo-swce.png";
+import srichaitanys from "../assert/srichaitanys.jpg";
 import useScrollAnimation from "../hooks/useScrollAnimation";
-
 
 export default function Education() {
   const [ref, show] = useScrollAnimation();
 
   return (
-    <div
-      className={`Educationmaindiv animate ${show ? "show" : ""}`}
-      ref={ref}
-    >
+    <div className={`Educationmaindiv animate ${show ? "show" : ""}`} ref={ref}>
       <h1 id="educationheading">Education</h1>
       <h3 id="educationintro">
         My education has been a journey of self-discovery and growth.

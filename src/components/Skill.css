@@ -73,7 +73,7 @@ h1 {
 }
 #Skillpicture {
   height: 500px;
-  background-image: url("../assert/Skills (1).svg");
+  background-image: url("../../assert/Skills (1).svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -95,7 +95,7 @@ h1 {
 #reactjspicture {
   height: 20px;
   width: 20px;
-  background-image: url("../assert/react.png");
+  background-image: url("../../assert/react.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ h1 {
 #javaScriptpicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/javaScript.png");
+  background-image: url("../../assert/javaScript.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ h1 {
 #Csspicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/css.png");
+  background-image: url("../../assert/css.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ h1 {
 #tailwindCsspicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/tailwind.png");
+  background-image: url("../../assert/tailwind.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@ h1 {
 #htmlpicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/html.png");
+  background-image: url("../../assert/html.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@ h1 {
 #bootstrappicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/bootstrap.jpg");
+  background-image: url("../../assert/bootstrap.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -168,7 +168,7 @@ h1 {
 #nodepicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/nodejs.jpg");
+  background-image: url("../../assert/nodejs.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ h1 {
 #expresspicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/express.png");
+  background-image: url("../../assert/express.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -187,7 +187,7 @@ h1 {
 #mongodbpicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/MongoDB_Logo.jpg");
+  background-image: url("../../assert/MongoDB_Logo.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -196,7 +196,7 @@ h1 {
 #redispicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/redis.png");
+  background-image: url("../../assert/redis.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ h1 {
 #GitHubpicture {
   height: 20px;
   width: 20px;
-  background-image: url("assert/github.png");
+  background-image: url("../../assert/github.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

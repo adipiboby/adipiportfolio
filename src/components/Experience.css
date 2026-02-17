@@ -52,13 +52,11 @@
   max-width: 580px; /* desktop limit */
   height: auto;
   aspect-ratio: 16 / 9; /* keeps shape */
-  background: url("assert/StorageApp.png");
+  background: url("../../assert/StorageApp.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
 
 /* .ExperienceDiv {
   position: relative;
@@ -114,7 +112,7 @@
   max-width: 580px; /* desktop limit */
   height: auto;
   aspect-ratio: 16 / 9; /* keeps shape */
-  background: url("assert/StorageApp.png");
+  background: url("../../assert/StorageApp.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
