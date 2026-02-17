@@ -1,0 +1,84 @@
+.Contactpage{
+    background-color:#1A0B2E;
+    height: 100vh;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: white;
+    margin-top: 2px;
+   
+    align-items: center;
+   position: relative;
+}
+
+
+
+#contactheading{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 4%;
+    
+}
+
+#contactintro{
+    display: flex;
+    justify-content: center;
+}
+.contactdiv{
+  background: rgba(0, 0, 0, 0.307);
+  height: 500px;
+  width: 50%;
+  margin-left: 25%;
+ 
+    
+}
+#emailme{
+    display: flex;
+    justify-content: start;
+    padding-top:40px ;
+    margin-left: 4%;
+}
+
+#inputdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+    margin-top: 10%;
+}
+
+#email{
+    width: 90%;
+    margin-left: 5%;
+   height: 50px;
+   background-color: #1A0B2E;
+   border-radius: 10px;
+    color:whitesmoke
+}
+#contactName{
+    height: 50px;
+    margin-top: 5px;
+     width: 90%;
+     margin-left: 5%;
+    background-color: #1A0B2E;
+    border-radius: 10px;
+     color:whitesmoke
+}
+#message{
+     height: 120px;
+    margin-top: 5px;
+     width: 90%;
+    margin-left: 5%;
+  background-color: #1A0B2E;
+  border-radius: 10px;
+  color:whitesmoke
+}
+button{
+        height: 50px;
+    margin-top: 5px;
+     width: 90%;
+     margin-left: 5.5%;
+    background:linear-gradient(to right,#DA00FF,#B400FF,#9400FF);
+   border-radius: 10px;
+}

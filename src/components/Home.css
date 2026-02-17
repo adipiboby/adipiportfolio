@@ -1,0 +1,165 @@
+#homediv {
+  background-color: #1a0b2e;
+  height: 100vh;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: white;
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#behindImage {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 50% / 48%; /* Makes the div oval (ellipse), tweak as needed */
+  background: radial-gradient(circle at center, #a958e6 0%, #191337 80%);
+  /* Bright border, adjust color to match your image */
+  box-shadow: 0 0 60px 15px #a958e688; /* Optional: extra glow effect */
+  margin-left: 30px;
+}
+#controlImageSize {
+  margin-left: 30px;
+  margin-top: 20px;
+ 
+}
+
+#image {
+  height: 10px;
+  border-radius: 50%;
+}
+#image img {
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+#ArrowTextDiv {
+  /* text-align: center; */
+  width: 100%;
+  position: absolute;
+  margin-bottom: 20%;
+}
+#ArrowImg {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+#name {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  transform: translateY(-100%);
+}
+#course {
+  position: absolute;
+  margin-left: 420px;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+#aboutmygoaldiv {
+  width: 100%;
+  margin-top: 15%;
+}
+#aboutmygoal {
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+}
+#checkresumediv {
+  margin-top: 300px;
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#checkresumediv h2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(to right, #a0538f, #6a00ff);
+}
+
+/* @media (max-width:){
+
+} */
+
+#title {
+  margin-right: 120px;
+}
+
+.typing {
+  display: inline-block;
+  width: 16ch; /* longest word length */
+  white-space: nowrap;
+}
+
+.typing::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 935px) {
+  #homediv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #name {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+  }
+  #ArrowImg {
+    display: none;
+  }
+  #course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    font-size: small;
+  }
+  #title {
+    margin-bottom: 0;
+    margin-top: 220px;
+    margin-right: 0px;
+  }
+  #aboutmygoaldiv {
+    margin-bottom: 100px;
+    font-size: small;
+    text-align: center;
+  }
+  #aboutmygoal {
+    margin-left: 10px;
+  }
+
+  #checkresumediv {
+    margin-top: 200px;
+  }
+  #controlImageSize {
+    margin-left: 0px;
+  }
+  #name {
+    transform: translateY(-40px);
+  }
+}

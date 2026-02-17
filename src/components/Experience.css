@@ -1,0 +1,148 @@
+.ExperienceDiv {
+  position: relative;
+  color: white;
+  margin: 2px;
+  background-color: #1a0b2e;
+  padding: 1rem;
+}
+
+.ExperienceDiv h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* ===== Layout ===== */
+#entireprojectdiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* ===== Text Section ===== */
+#projectdiv {
+  height: 400px;
+  width: 40%;
+}
+
+#projectdiv h2 {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+/* Background panels */
+#projectintrodiv,
+#projectintrodiv2 {
+  background: radial-gradient(circle, #693b93, #6ebff4, #4690d4);
+  z-index: 1;
+}
+
+/* ===== Image Section ===== */
+#projectimagediv {
+  height: 400px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Responsive Image */
+#storageAppimage {
+  width: 100%; /* 🔥 responsive */
+  max-width: 580px; /* desktop limit */
+  height: auto;
+  aspect-ratio: 16 / 9; /* keeps shape */
+  background: url("assert/StorageApp.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+/* .ExperienceDiv {
+  position: relative;
+  color: white;
+  margin: 2px;
+  background-color: #1A0B2E;
+  padding: 1rem;
+}
+
+.ExperienceDiv h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* ===== Layout ===== */
+/* #entireprojectdiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* ===== Text Section ===== */
+/* #projectdiv {
+  height: 400px;
+  width: 40%;
+} */
+
+/* #projectdiv h2 {
+  margin-left: 30px;
+  padding-top: 30px;
+} */
+
+/* Background panels */
+/* #projectintrodiv,
+#projectintrodiv2 {
+  background: radial-gradient(circle, #693B93, #6EBFF4, #4690D4);
+  z-index: 1;
+} */
+
+/* ===== Image Section ===== */
+/* #projectimagediv {
+  height: 400px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+} */
+
+/* Responsive Image */
+#storageAppimage {
+  width: 100%; /* 🔥 responsive */
+  max-width: 580px; /* desktop limit */
+  height: auto;
+  aspect-ratio: 16 / 9; /* keeps shape */
+  background: url("assert/StorageApp.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  #entireprojectdiv {
+    flex-direction: column; /* image up, text down */
+    text-align: center;
+  }
+
+  #projectdiv,
+  #projectimagediv {
+    width: 100%;
+    height: auto;
+  }
+
+  #projectimagediv {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #projectdiv h2 {
+    margin-left: 0;
+    padding-top: 20px;
+  }
+
+  #storageAppimage {
+    max-width: 100%;
+    height: auto;
+  }
+}
