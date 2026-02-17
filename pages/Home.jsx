@@ -14,7 +14,7 @@ export default function Home() {
       {/* <img src="../assert/Arrow.png" id='ArrowImg' /> */}
       <ArrowText/>
     <div id="ArrowTextDiv">
-        <img src="../assert/Arrow.png" id='ArrowImg' ></img>
+        <img src={Arrow} id='ArrowImg' ></img>
         <h2 id="name">Hello,I Am<br></br>ManojKumar</h2>
     </div>
     </div>  

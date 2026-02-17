@@ -1,6 +1,9 @@
 import React from "react";
 import "../src/components/Education.css";
+import logoswce from "../assert/logo-swce.png"
+import srichaitanys from "../assert/srichaitanys.jpg"
 import useScrollAnimation from "../hooks/useScrollAnimation";
+
 
 export default function Education() {
   const [ref, show] = useScrollAnimation();
@@ -17,7 +20,7 @@ export default function Education() {
 
       <div className="educationdetailsdiv">
         <div className={`educationdiv animate ${show ? "show" : ""}`}>
-          <img src="assert/logo-swce.png" alt="college" />
+          <img src={logoswce} alt="college" />
           <div id="educationSummarydiv">
             <h1>Study World College of Engineering, Coimbatore</h1>
             <h3>Bachelor of Technology (B.Tech)</h3>
@@ -26,7 +29,7 @@ export default function Education() {
         </div>
 
         <div className={`educationdiv animate ${show ? "show" : ""}`}>
-          <img src="assert/srichaitanys.jpg" alt="intermediate" />
+          <img src={srichaitanys} alt="intermediate" />
           <div id="educationSummarydiv">
             <h1>Sri Chaitanya Intermediate College</h1>
             <h3>Intermediate</h3>
@@ -35,7 +38,7 @@ export default function Education() {
         </div>
 
         <div className={`educationdiv animate ${show ? "show" : ""}`}>
-          <img src="assert/srichaitanys.jpg" alt="school" />
+          <img src={srichaitanys} alt="school" />
           <div id="educationSummarydiv">
             <h1>Sri Chaitanya School</h1>
             <h3>School</h3>
